@@ -1,0 +1,42 @@
+nav {
+  background: black;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  flex: 20%;
+}
+
+nav a {
+  color: white;
+}
+
+main {
+  display: flex;
+}
+
+article {
+  flex: 60%;
+  margin: 1.5em 2.52525% 0 2.0202%;
+}
+
+aside {
+  flex: 40%;
+  padding: 2.0202%;
+  max-width: 200px;
+  min-height: 180px;
+  background-color: #ffebc6;
+  margin: 1.5em 2.0202% 0 0;
+}
+
+footer {
+  background-color: #ffcccc;
+  position: absolute;
+  margin-top: auto;
+}
